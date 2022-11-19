@@ -2,7 +2,7 @@
 #include <omp.h>
 static long num_pasos=10000000;
 double paso;
-#define NUM_THREADS 35
+#define NUM_THREADS 50
 void main(){
  int i, nthreads;
  double pi, sum[NUM_THREADS], t1, t2, tiempo;
